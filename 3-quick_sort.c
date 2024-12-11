@@ -75,5 +75,3 @@ if (array == NULL || size < 2)
 
 quick_sort_recursive(array, 0, size - 1, size);
 }
-
-
