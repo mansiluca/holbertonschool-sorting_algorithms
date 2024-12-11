@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 #include "sort.h"
 
 /**
@@ -40,7 +42,7 @@ swap(&array[i + 1], &array[high]);
 if (i + 1 != high)
 	print_array(array, size);
 
-return (i + 1);
+return (i);
 }
 
 /**
